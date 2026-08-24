@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de CEP</h1>
+        <p>Digite o CEP sem traço</p>
+        <input type="text" id="cep" placeholder="Ex: 01001000">
+        <button onclick="getCep()">Pesquisar</button>
+        <p id="resultado">aguardando</p>
+        <a href="index.html">Voltar para a home</a>
+    </div>
+
+    <script src="cep.js"></script>
+</body>
+</html>
